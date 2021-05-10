@@ -1,2 +1,2 @@
-# VueJS-Challenge
+# VueJS
 Challenge VueJS
