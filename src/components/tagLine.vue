@@ -1,7 +1,6 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p class="lead font-weight-bold">Un nouveau lieu de rencontre, un nouveau lieu où bien manger en toute décontraction...</p>
+    <p class="lead font-weight-bold">{{ msg }}</p>
   </div>
 </template>
 
