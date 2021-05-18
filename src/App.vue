@@ -1,7 +1,8 @@
 <template>
   <div id="app">
+    <Jumbotron msg="Nouveau dans votre ville "/>
     <img alt="Vue logo" src="./assets/becool-logo-black.png">
-    <TagLine msg="Nouveau dans votre région !"/>
+    <TagLine msg="Un nouveau lieu de rencontre, un nouveau lieu où bien manger en toute décontraction..."/>
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/laCarte">La Carte</router-link> |
@@ -14,13 +15,15 @@
 </template>
 
 <script>
+import Jumbotron from './components/jumbotron.vue'
 import TagLine from './components/tagLine.vue'
 export default {
   name: 'App',
   components: {
-    TagLine
+    Jumbotron, TagLine 
   }
 }
+
 </script>
 
 
